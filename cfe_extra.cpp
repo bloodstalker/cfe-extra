@@ -156,11 +156,6 @@ bool IsTheMatchInMainFile(bool MainFileFlag, bool MainFile) {
 /*********************************************************************************************************************/
 /*End of namespace Devi*/
 }
-#pragma weak main
-int main(int argc, char** argv) {
-  std::cout << "cfe_extra, version 1.0.0\n";
-  return 0;
-}
 /*********************************************************************************************************************/
 /*last line intentionally left blank.*/
 
